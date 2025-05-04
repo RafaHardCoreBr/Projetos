@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    --primary-color: #1E1E2F;
+    --primary-color-darker: #012427;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/papers.co-vd97-dark-line-abstract-digital-graphic-art-40-wallpaper.jpg);
+    font-family: 'Open sans';
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 160px auto;
+    background: #fff;
+    padding: 70px;
+    border-radius: 10px;
+
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input :focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border: none;
+    background: #4F46E5;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #3730A3;
+}
+
+form button:active {
+    background: #3730A3;
+}
+
+.paragrafo-resultado,
+.bad {
+    background: #00ffb3;
+    padding: 1% 20px;
+    border-radius: 5px;
+}
+
+.bad {
+    background-color: #f57575;
+}
+
+.tabela {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: 'Open-sans';
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imc {
+    border-radius: 5px;
+    border-width: 2px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.resultado-tb {
+    border-radius: 5px;
+    border-width: 2px;
+    line-height: 1.5em;
+    text-align: center;
+    
+}
+
+.linha1, .linha2, .linha3, .linha4, 
+.linha5, .linha6, .linha7, .linha8,
+.linha9, .linha10, .linha11, .linha12 {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: double;
+}
